@@ -20,14 +20,13 @@ namespace Atomic_UnPacker
 				{
 					for (int j = 0; j < typeDef.Interfaces.Count; j++)
 					{
-						bool flag2 = typeDef.Interfaces[j].Interface != null;
+						bool flag2 = 
 						bool flag3 = flag2;
 						bool flag4 = flag3;
-						if (flag4)
+						if (typeDef.Interfaces[j].Interface != null)
 						{
-							bool flag5 = typeDef.Interfaces[j].Interface.Name.Contains(typeDef.Name) || typeDef.Name.Contains(typeDef.Interfaces[j].Interface.Name);
-							bool flag6 = flag5;
-							if (flag6)
+							
+							if (typeDef.Interfaces[j].Interface.Name.Contains(typeDef.Name) || typeDef.Name.Contains(typeDef.Interfaces[j].Interface.Name);)
 							{
 								module.Types.RemoveAt(i);
 								Program.countofths++;
@@ -42,8 +41,8 @@ namespace Atomic_UnPacker
 			{
 				for (int k = 0; k < typeDef2.Interfaces.Count; k++)
 				{
-					bool flag7 = typeDef2.Interfaces[k].Interface.Name.Contains(typeDef2.Name) || typeDef2.Name.Contains(typeDef2.Interfaces[k].Interface.Name);
-					if (flag7)
+					
+					if (typeDef2.Interfaces[k].Interface.Name.Contains(typeDef2.Name) || typeDef2.Name.Contains(typeDef2.Interfaces[k].Interface.Name))
 					{
 						module.Types.Remove(typeDef2);
 						Program.countofths++;
@@ -93,44 +92,38 @@ namespace Atomic_UnPacker
 					bool flag12 = !flag11;
 					if (flag12)
 					{
-						bool flag13 = typeDef4.Name == "ConfusedByAttribute";
-						bool flag14 = flag13;
-						if (flag14)
+						
+						if (typeDef4.Name == "ConfusedByAttribute")
 						{
 							Program.lista(a_).Remove(typeDef4);
 							Program.countofths++;
 						}
-						bool flag15 = typeDef4.Name == "ZYXDNGuarder";
-						bool flag16 = flag15;
-						if (flag16)
+						
+						if ( typeDef4.Name == "ZYXDNGuarder")
 						{
 							Program.lista(a_).Remove(typeDef4);
 							Program.countofths++;
 						}
-						bool flag17 = typeDef4.Name == "YanoAttribute";
-						bool flag18 = flag17;
-						if (flag18)
+						
+						if (typeDef4.Name == "YanoAttribute")
 						{
 							Program.lista(a_).Remove(typeDef4);
 							Program.countofths++;
 						}
-						bool flag19 = typeDef4.Name == "Xenocode.Client.Attributes.AssemblyAttributes.ProcessedByXenocode";
-						bool flag20 = flag19;
-						if (flag20)
+						
+						if (typeDef4.Name == "Xenocode.Client.Attributes.AssemblyAttributes.ProcessedByXenocode")
 						{
 							Program.lista(a_).Remove(typeDef4);
 							Program.countofths++;
 						}
-						bool flag21 = typeDef4.Name == "SmartAssembly.Attributes.PoweredByAttribute";
-						bool flag22 = flag21;
-						if (flag22)
+						
+						if (typeDef4.Name == "SmartAssembly.Attributes.PoweredByAttribute")
 						{
 							Program.lista(a_).Remove(typeDef4);
 							Program.countofths++;
 						}
-						bool flag23 = typeDef4.Name == "SecureTeam.Attributes.ObfuscatedByAgileDotNetAttribute";
-						bool flag24 = flag23;
-						if (flag24)
+						
+						if (typeDef4.Name == "SecureTeam.Attributes.ObfuscatedByAgileDotNetAttribute")
 						{
 							Program.lista(a_).Remove(typeDef4);
 							Program.countofths++;
@@ -226,38 +219,38 @@ namespace Atomic_UnPacker
 							Program.lista(a_).Remove(typeDef4);
 							Program.countofths++;
 						}
-						bool flag51 = typeDef4.Name == "OiCuntJollyGoodDayYeHavin_____________________________________________________";
-						if (flag51)
+						
+						if (typeDef4.Name == "OiCuntJollyGoodDayYeHavin_____________________________________________________")
 						{
 							Program.lista(a_).Remove(typeDef4);
 							Program.countofths++;
 						}
-						bool flag52 = typeDef4.Name == "ProtectedWithCryptoObfuscatorAttribute";
-						if (flag52)
+						
+						if (typeDef4.Name == "ProtectedWithCryptoObfuscatorAttribute";)
 						{
 							Program.lista(a_).Remove(typeDef4);
 							Program.countofths++;
 						}
-						bool flag53 = typeDef4.Name == "NetGuard";
-						if (flag53)
+						
+						if (typeDef4.Name == "NetGuard")
 						{
 							Program.lista(a_).Remove(typeDef4);
 							Program.countofths++;
 						}
-						bool flag54 = typeDef4.Name == "ZYXDNGuarder";
-						if (flag54)
+						
+						if (typeDef4.Name == "ZYXDNGuarder")
 						{
 							Program.lista(a_).Remove(typeDef4);
 							Program.countofths++;
 						}
-						bool flag55 = typeDef4.Name == "DotfuscatorAttribute";
-						if (flag55)
+						
+						if (typeDef4.Name == "DotfuscatorAttribute")
 						{
 							Program.lista(a_).Remove(typeDef4);
 							Program.countofths++;
 						}
-						bool flag56 = typeDef4.Name == "SecureTeam.Attributes.ObfuscatedByAgileDotNetAttribute";
-						if (flag56)
+						
+						if (typeDef4.Name == "SecureTeam.Attributes.ObfuscatedByAgileDotNetAttribute")
 						{
 							Program.lista(a_).Remove(typeDef4);
 							Program.countofths++;
