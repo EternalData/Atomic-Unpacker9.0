@@ -68,7 +68,10 @@ namespace Atomic_UnPacker
 				"SecureTeam.Attributes.ObfuscatedByCliSecureAttribute",
 				"Reactor",
 				"ZYXDNGuarder",
-				"CryptoObfuscator"
+				"CryptoObfuscator",
+				"EMyPID_8234_",
+				"();\t",
+					"ConfusedByAttribute"
 			};
 			foreach (TypeDef typeDef3 in module.Types.ToList<TypeDef>())
 			{
